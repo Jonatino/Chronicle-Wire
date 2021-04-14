@@ -416,6 +416,7 @@ public class YamlWire extends AbstractWire implements Wire {
                 case COMMENT:
                 case DIRECTIVE:
                 case DIRECTIVES_END:
+                case SEQUENCE_ENTRY:
                     yt.next();
                     break;
                 default:
